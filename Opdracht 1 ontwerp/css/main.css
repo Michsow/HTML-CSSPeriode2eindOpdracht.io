@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 900px;
+    background-color: #FBFAFB;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #86BBD2;
+    text-align-last: justify;
+}
+button{
+    height: 50px;
+}
+section:nth-child(even)  {
+    width: 100%;
+    height: 400px;
+    background-color: #8C8D94;
+    display: flex;
+    justify-content: space-around;
+}
+section:nth-child(odd)  {
+    width: 100%;
+    height: 400px;
+    background-color: #495A93;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #86BBD2;
+}
+.text1{
+    width: 25%;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #495A93;
+    font-family: 'Titillium Web', sans-serif;
+}
+.txt1div{
+    width: 42%;
+    height: 100px;
+    margin: 125px;
+}
+.imgdiv{
+    width: 25%;
+    height: 400px;
+    background-image: url(../img/guy.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.imgdiv2{
+    width: 42%;
+    height: 400px;
+    margin: 20px;
+    background-image: url(../img/imageForSection2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.divWtext{
+    width: 10%;
+    height: 80px;
+    border-radius: 5px;
+    margin: auto;
+    background: #93ABB6;
+}
+.imgdiv3{
+    width: 42%;
+    height: 400px;
+    margin: 20px;
+    background-image: url(../img/imageForSection2IMG2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text2{
+    width: 50%;
+    height: 350px;
+    border-radius: 8px;
+    margin: 24px;
+    text-align: center;
+    background-color: silver;
+}
+
+.imgdiv4{
+    width: 35%;
+    height: 350px;
+    border-radius: 8px;
+    margin: 20px;
+    background-image: url(../img/techpain.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imgdiv5{
+    width: 30%;
+    height: 350px;
+    border-radius: 8px;
+    margin: 20px;
+    background-image:url(../img/codeLanguageIcons.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.divfor2img{
+    width: 16%;
+    height: 160px;
+    margin: auto;
+    display: grid;
+    background-color: silver;
+}
+.F1div1{
+    text-align: center;
+}
